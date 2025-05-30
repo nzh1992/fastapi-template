@@ -1,7 +1,7 @@
 from datetime import datetime
 from sqlalchemy import schema
 from sqlalchemy.sql import sqltypes
-from app.db.base_class import Base
+from app.db import Base
 
 
 class AbstractBaseModel(Base):
